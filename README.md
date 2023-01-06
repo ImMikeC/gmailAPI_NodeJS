@@ -30,7 +30,7 @@ Para correr el proyecto se debe ejecutar el comando **node app.js**.
 - Luego, sin cerrar la ventana de la rueda dentada, presiona el boton azul de la izquierda que dice **Autorizar APIs**.
 - Pasaras a continuacion a una serie de pantallas de autorizacion caracteristicas de Google.
 - Con esto ya estas lista/o para usar el proyecto.
-- En esta vista se genera el **RESFRESH_TOKEN** que usaras en tu **.env** junto a los otros datos.
+- En esta vista se genera el **REFRESH_TOKEN** que usaras en tu **.env** junto a los otros datos.
 - Ademas, en esta misma pantalla puedes usar el paso 3 que configura la solicitud a la API. El boton **Listar posibles operaciones** genera diversos ejemplos para usar como referencia junto a la documentacion de la url **https://developers.google.com/gmail/api/reference/rest/v1/users.labels/create**
 
 ## Archivo controllers.js
