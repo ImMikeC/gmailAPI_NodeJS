@@ -50,7 +50,7 @@ async function getDrafts(req, res) {
 
 async function readMail(req, res) {
     try {
-        const url = `https://gmail.googleapis.com/gmail/v1/users/hebressus@gmail.com/messages/${req.params.messageId}`;
+        const url = `https://gmail.googleapis.com/gmail/v1/users/nombre-usuario@gmail.com/messages/${req.params.messageId}`;
         const { token } = await oAuth2Client.getAccessToken();
         const config = generateConfig(url, token);
         const response = await axios(config);
